@@ -1,0 +1,10 @@
+{
+  "Name": "AutoPetAllTheAnimals",
+  "Author": "dittusch",
+  "Version": "0.1.0",
+  "Description": "Automatically pet all your farm pets every morning",
+  "UniqueID": "dittusch.autopetalltheanimals",
+  "EntryDll": "AutoPetAllTheAnimals.dll",
+  "MinimumApiVersion": "2.10.0",
+  "UpdateKeys": ["GitHub:dittusch/AutoPetAllTheAnimals"]
+}
