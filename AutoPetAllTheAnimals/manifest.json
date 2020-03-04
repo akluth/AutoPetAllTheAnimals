@@ -1,10 +1,10 @@
 {
   "Name": "AutoPetAllTheAnimals",
-  "Author": "dittusch",
-  "Version": "0.1.0",
+  "Author": "alexclooze",
+  "Version": "0.2.0",
   "Description": "Automatically pet all your farm pets every morning",
-  "UniqueID": "dittusch.autopetalltheanimals",
+  "UniqueID": "alexclooze.autopetalltheanimals",
   "EntryDll": "AutoPetAllTheAnimals.dll",
-  "MinimumApiVersion": "2.10.0",
-  "UpdateKeys": ["GitHub:dittusch/AutoPetAllTheAnimals"]
+  "MinimumApiVersion": "3.1.0",
+  "UpdateKeys": ["GitHub:alexclooze/AutoPetAllTheAnimals"]
 }

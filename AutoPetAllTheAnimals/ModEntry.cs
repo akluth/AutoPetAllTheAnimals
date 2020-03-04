@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using Microsoft.Xna.Framework;
 using StardewModdingAPI;
 using StardewModdingAPI.Events;
-using StardewModdingAPI.Utilities;
 using StardewValley;
 
 namespace AutoPetAllTheAnimals
@@ -17,6 +14,8 @@ namespace AutoPetAllTheAnimals
 
         private static void GameLoopOnDayStarted(object sender, DayStartedEventArgs e)
         {
+            Game1.player.addItemToInventory((Item)new StardewValley.Object(74, 1));
+
             var animals = Game1.getFarm().getAllFarmAnimals();
 
             foreach (var animal in animals)
